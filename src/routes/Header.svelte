@@ -2,10 +2,10 @@
 	import { page } from '$app/stores';
 
 	export let specialClass = 'no-special';
-	if ($page.url.pathname==="/persona") {
-		specialClass = 'life-theme'
-	} else if ($page.url.pathname==="/laboral-academico") {
-		specialClass = 'work-theme'
+	if ($page.url.pathname === '/persona') {
+		specialClass = 'life-theme';
+	} else if ($page.url.pathname === '/laboral-academico') {
+		specialClass = 'work-theme';
 	}
 </script>
 
@@ -15,17 +15,39 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined} >
-				<a href="/"><button on:click={()=>{specialClass = 'no-special'}}>Home</button></a>
+			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+				<a href="/"
+					><button
+						on:click={() => {
+							specialClass = 'no-special';
+						}}>Home</button
+					></a
+				>
 			</li>
-			<li aria-current={$page.url.pathname === '/laboral-academico' ? 'page' : undefined} >
-				<a href="/laboral-academico"><button on:click={()=>{specialClass = 'work-theme'}}>Laboral-académico</button></a>
+			<li aria-current={$page.url.pathname === '/laboral-academico' ? 'page' : undefined}>
+				<a href="/laboral-academico"
+					><button
+						on:click={() => {
+							specialClass = 'work-theme';
+						}}>Laboral-académico</button
+					></a
+				>
 			</li>
-			<li aria-current={$page.url.pathname === '/persona' ? 'page' : undefined} >
-				<a href="/persona"><button on:click={()=>{specialClass = 'life-theme'}}>Persona</button></a>
+			<li aria-current={$page.url.pathname === '/persona' ? 'page' : undefined}>
+				<a href="/persona">
+					<button	on:click={() => {specialClass = 'life-theme';}}>
+							Persona
+					</button>
+				</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined} >
-				<a href="/about"><button on:click={()=>{specialClass = 'no-special'}}>About</button></a>
+			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+				<a href="/about"
+					><button
+						on:click={() => {
+							specialClass = 'no-special';
+						}}>About</button
+					></a
+				>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -83,7 +105,7 @@
 		top: 0;
 		left: calc(50% - var(--size));
 		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
+		border-top: var(--size) solid var(--color-theme-1-aux);
 	}
 
 	nav button {
@@ -103,13 +125,13 @@
 	}
 
 	nav button:hover {
-		color: var(--color-theme-1);
+		color: var(--color-theme-1-aux);
 	}
 
 	@media (max-width: 480px) {
 		header {
 			position: fixed;
-			z-index:10;
+			z-index: 10;
 		}
 	}
 </style>

@@ -4,7 +4,7 @@
 	let specialClass = 'no-special';
 </script>
 
-<div class="app {specialClass}" >
+<div class="app {specialClass}">
 	<Header bind:specialClass/>
 		
 	<main>
@@ -12,7 +12,7 @@
 	</main>
 	
 	<footer>
-		<p>With ❤️ by <a href="https://github.com/alichwan">Alichwan</a></p>
+		<p>Made with ❤️ by <a href="https://github.com/alichwan">Alichwan</a></p>
 	</footer>
 </div>
 
@@ -21,6 +21,18 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+	}
+	.app.no-special {
+		animation-name: background-change;
+		animation-duration: 5s ;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+
+	@keyframes background-change {
+	0%   {background: rgb(255, 191, 191);}
+	50%  {background: rgb(193, 230, 254);}
+	100% {background: rgb(198, 255, 230);}
 	}
 
 	.app.work-theme {

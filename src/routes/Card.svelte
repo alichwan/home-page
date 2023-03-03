@@ -2,9 +2,12 @@
     export let title;
     export let side;
     export let theme = "light";
+
+    $: linksBg = title ==='Links 🔗'? 'transparent' : 'rgba(100%, 100%, 100%, 0.3)'
+    $: linksAlign = title ==='Links 🔗'? 'text-align:center;' : ''
 </script>
 
-<div class="card {side} {theme}">
+<div class="card {side} {theme}" style="background-color: {linksBg}; {linksAlign}">
         <h3>{title}</h3>
         <div class="cuerpo">
             <slot />
@@ -14,7 +17,6 @@
 <style>
     .card {
         margin: 10px;
-        background-color: rgba(100%, 100%, 100%, 0.3);
         padding: 10px 0;
         border-radius: 25px;
     }
