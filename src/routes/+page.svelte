@@ -1,7 +1,4 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/fox.svg';
-	import welcome_fallback from '$lib/images/fox.svg';
 </script>
 
 <svelte:head>
@@ -13,7 +10,7 @@
 	<h1>
 		<span class="welcome">
 			<picture>
-				<img src={welcome_fallback} alt="Welcome" />
+				<img src="/fox.svg" alt="Welcome" />
 			</picture>
 		</span>
 		Hola, te invito a conocerme
