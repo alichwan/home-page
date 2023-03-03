@@ -26,7 +26,7 @@
 	.app.work-theme {
 		background: rgb(0,0,0);
 		background: linear-gradient(171deg, rgba(0,0,0,0.89) 5%, rgba(56,56,56,0.86) 28%, rgba(0,0,0,0.91) 48%, rgba(82,82,82,0.87) 73%, rgba(0,0,0,0.86) 94%);
-		color: rgb(92, 255, 255);
+		color: var(--work-color);
 	}
 
 	.app.life-theme {

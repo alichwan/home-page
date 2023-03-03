@@ -6,9 +6,9 @@
 
 <div class="card {side} {theme}">
         <h3>{title}</h3>
-        <p>
+        <div class="cuerpo">
             <slot />
-        </p>
+        </div>
 </div>
 
 <style>
@@ -21,9 +21,10 @@
 
     h3 {
         margin: 10px 0 0 30px;
+        font-family: 'rockwell', monospace
     }
 
-    p {
+    .cuerpo {
         margin: 10px 30px;
     }
 
