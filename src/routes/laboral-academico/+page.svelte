@@ -8,42 +8,42 @@
 </svelte:head>
 
 <div class="wraper">
-	<h1>Quién soy para el mercado</h1>
+	<h1>Quién soy trabajando</h1>
 
-	<Card title={'Estudios'} side="right">
+	<Card title={'Estudio 🎓'} side="right">
 		pass
 	</Card>
 
-	<Card title={'Experiencia laboral'} side="left">
+	<Card title={'Experiencia laboral 💼'} side="left">
 		pass
 	</Card>
 
-	<Card title={'Investigación'} side="right">
+	<Card title={'Investigación 👨🏼‍🔬🔎'} side="right">
 		pass
 	</Card>
 
-	<Card title={'Habilidades transversales'} side="left">
+	<Card title={'Habilidades transversales 💪'} side="left">
 		pass
 	</Card>
 
-	<Card title={'Extras'} side="right">
+	<Card title={'✨Extras✨'} side="right">
 		pass
 	</Card>
 
-	<Card title={'Redes'} side="left">
+	<Card title={'Redes 🔗'} side="left">
 		pass
 	</Card>
 
-	<Card title={'Nivel de Inglés'} side="right">
+	<Card title={'Nivel de Inglés 🇬🇧🇺🇸'} side="right">
 		Esto debería ser una burbuja
 	</Card>
-	<Card title={'Herramientas > Datos'} side="left">
+	<Card title={'Herramientas 🛠️ > Datos 📊'} side="left">
 		pass
 	</Card>
-	<Card title={'Herramientas > Machine Learning'} side="right">
+	<Card title={'Herramientas > Machine Learning 🤖'} side="right">
 		pass
 	</Card>
-	<Card title={'Herramientas > Desarrollo'} side="left">
+	<Card title={'Herramientas > Desarrollo 🧑‍💻'} side="left">
 		pass
 	</Card>
 
@@ -51,5 +51,8 @@
 </div>
 
 <style>
+	h1 {
+		font-family: 'rockwell', monospace;
+	}
 
 </style>

@@ -14,13 +14,11 @@
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
 	color: var(--color-text);
-	--la-background: black;
-	--la-color: aqua;
-	--pers-background: magenta;
 }
 
 body {
 	min-height: 100vh;
+	min-width: 470px;
 	margin: 0;
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);

@@ -2,7 +2,11 @@
 	import { page } from '$app/stores';
 
 	export let specialClass = 'no-special';
-
+	if ($page.url.pathname==="/persona") {
+		specialClass = 'life-theme'
+	} else if ($page.url.pathname==="/laboral-academico") {
+		specialClass = 'work-theme'
+	}
 </script>
 
 <header>
@@ -100,5 +104,12 @@
 
 	nav button:hover {
 		color: var(--color-theme-1);
+	}
+
+	@media (max-width: 480px) {
+		header {
+			position: fixed;
+			z-index:10;
+		}
 	}
 </style>
