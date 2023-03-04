@@ -18,12 +18,12 @@
 
 	<h2>Elige qué Pavel quieres conocer</h2>
 	<div class="selection">
-		<div class="sel-block work">
-			<a target="_self" href="/laboral-academico">WORK</a>
-		</div>
-		<div class="sel-block life">
-			<a target="_self" href="/persona">LIFE</a>
-		</div>
+		<a class="sel-block work" target="_self" href="/laboral-academico">
+			WORK
+		</a>
+		<a class="sel-block life" target="_self" href="/persona">
+			LIFE
+		</a>
 	</div>
 </section>
 
@@ -53,7 +53,7 @@
 		background-size: contain;
 	}
 
-	.selection div {
+	.selection a {
 		position: relative;
 		height: 100%;
 		width: 200px;
@@ -72,6 +72,8 @@
 	}
 
 	.sel-block.work {
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
 		background: rgb(0, 0, 0);
 		background: linear-gradient(
 			171deg,
@@ -84,11 +86,13 @@
 		color: var(--work-color);
 	}
 	
-	.sel-block.work a {
+	a.sel-block.work {
 		color: var(--work-color);
 	}
 	
 	.sel-block.life {
+		border-top-right-radius: 25px;
+		border-bottom-right-radius: 25px;
 		background: rgb(255, 244, 0);
 		background: linear-gradient(
 			159deg,
@@ -102,8 +106,12 @@
 		color: black;
 	}
 
-	.sel-block.life a {
+	a.sel-block.life {
 		color: black;
+	}
+
+	a.sel-block:hover {
+		text-decoration: none;
 	}
 
 	.welcome {
