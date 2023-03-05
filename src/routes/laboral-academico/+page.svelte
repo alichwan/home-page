@@ -33,9 +33,9 @@
 
 	<Card title={'Formación académica 🎓'} side="left" theme="dark">
 		<p>
-			Entré a <span class="highlight">College</span> en la Ponitificia Universidad Católica de
-			Chile, luego articulé a
-			<span class="highlight">Ingeniería Civíl Matemática y Computacional</span>
+			Entré a <span class="highlight">College</span> en la Pontificia Universidad Católica de Chile,
+			luego articulé a
+			<span class="highlight">Ingeniería Civil Matemática y Computacional</span>
 			con
 			<span class="highlight">major en Data Science</span> y
 			<span class="highlight">minor en Cuantificación de la Incertidumbre</span>. Efectivamente, son
@@ -43,7 +43,7 @@
 			matemáticas, estadísticas y computacionales.
 			<br /><br />
 			Debido a esta travesía obtuve 2 licenciaturas. Actualmente (2023) estoy cursando el
-			<span class="highlight">Magister en Ciencias de la Computación</span>
+			<span class="highlight">Magíster en Ciencias de la Computación</span>
 			<span class="highlight">Área Aprendizaje de Máquinas</span>.
 		</p>
 	</Card>
@@ -55,14 +55,14 @@
 				<a href="https://www.corfo.cl/" target="_blank" rel="noreferrer">CORFO</a></span
 			>
 			&ndash la Corporación de Fomento en Chile &ndash a la cual postulan miles de proyectos e ideas
-			al año, las que buscan obtener fondos concursables para poder llevarse a cabo, .
+			al año, las que buscan obtener fondos concursables para poder llevarse a cabo.
 			<br /><br />
 			En el primero de estos trabajos (2020) trabajé como
 			<span class="highlight"><i>Data Scientist Intern</i></span>
 			y creé una <span class="highlight">métrica de similaridad </span>entre las postulaciones,
 			tomando en cuenta los atributos que se pedían en todos los concursos de manera transversal.
 			Esta métrica tenía por propósito detectar posibles casos de
-			<span class="highlight">ideas o proyectos duplicados</span>. También se tenían que teneren
+			<span class="highlight">ideas o proyectos duplicados</span>. También se tenían que tener en
 			considerados proyectos que fueron adjudicados (que ganaron los fondos) en años anteriores.
 			Hubo un fuerte trabajo de
 			<span class="highlight">procesamiento de lenguaje natural (NLP)</span> puesto que eran los
@@ -89,10 +89,10 @@
 				><a target="_blank" rel="noreferrer" href="https://imfd.cl/"
 					>Instituto Milenio Fundamento de los Datos (IMFD)</a
 				></span
-			>. Esta API debía permitir a los usuarios definir, entrenar, usar, reajustar y eliminar
-			modelos de machine learning. Por ejemplo, para poder predecir las etiquetas de una sentencia
-			judicial. En este trabajo estuve en la parte encargada de conectar los distintos modelos
-			&ndash que otro grupo había creado y pre-entrenado &ndash con los <i>endpoints</i> correspondientes.
+			>. Esta API debía permitir a los usuarios definir, entrenar, usar, ajustar y eliminar modelos
+			de machine learning. Por ejemplo, para poder predecir las etiquetas de una sentencia judicial.
+			En este trabajo estuve en la parte encargada de conectar los distintos modelos &ndash que otro
+			grupo había creado y pre-entrenado &ndash con los <i>endpoints</i> correspondientes.
 		</p>
 	</Card>
 
@@ -128,23 +128,20 @@
 			y constantemente <span class="highlight">busco problemas que resolver</span> o
 			<span class="highlight">piezas que no encajan</span>
 			en una situación. Soy bueno <span class="highlight">trabajando en equipo</span>, aunque esto
-			puede variar dependendiendo del equipo. Finalmente, soy
+			puede variar dependiendo del equipo. Finalmente, soy
 			<span class="highlight">rápido para aprender cosas</span>.
 		</p>
 	</Card>
 
 	<Card title={'✨Extras✨'} side="left" theme="dark">
 		<p>
-			Dentro de los años que estuve en la universidad he asisitido a numerosas charlas en los grupos
+			Dentro de los años que estuve en la universidad he asistido a numerosas charlas en los grupos
 			en los que me encuentro:
 			<a target="_blank" rel="noreferrer" href="https://cenia.cl/">CENIA</a>,
 			<a target="_blank" rel="noreferrer" href="https://ialab.ing.puc.cl/">IALab</a> e
 			<a target="_blank" rel="noreferrer" href="https://imfd.cl/">IMFD</a>. Grupos en donde he
-			conocido gente maravillosa que me ha orientado cuando tenia dudas, no solo de inteligencia
+			conocido gente maravillosa que me ha orientado cuando tenía dudas, no solo de inteligencia
 			artificial.
-			<br /><br />
-			Estos grupos tienen diversos proyectos y son los centros de Inteligencia Artifial más importantes
-			del país, siendo el CENIA el primer Centro Nacional de Inteligencia Artifial del país.
 		</p>
 	</Card>
 
