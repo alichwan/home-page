@@ -35,19 +35,23 @@
 
 	<Card title={'¿Quién soy?👤❓'} side="left">
 		<p>
-			Soy Alex Pavel Medina Jorquera, Pavel para los amigos. Nacido y crecido en Santiago de Chile.
+			Mi nombre es Alex Pavel Medina Jorquera &mdash Pavel para los amigos. Nací y crecí en Santiago de Chile.
 			Mayor de 3 hermanos. Me gustan el invierno y el otoño. Mis animales favoritos son los gatos y
 			los zorros. Paso gran parte del día en el computador, en el celular o soñando despierto.
 		</p>
 	</Card>
 
 	<Card title={'Series 🎬, libros 📚 y música 🎶'} side="right">
+		<h2><b>Series 🎬</b></h2>
 		<p>
 			Si bien tengo pareja, la distancia hace que pase el tiempo con mi familia, viendo memes o
 			viendo series. ¿Series?, más bien <a href="#anime-section">anime</a>.
-			<br /><br />
-			Si bien no leo muchos libros, tengo mis favoritos porque cuando era pequeño sí que intentaba leer
-			cosas. Algunos de mis favoritos serían:
+		</p>
+		<br />
+		<h2><b>Libros 📚</b></h2>
+		<p>
+			Si bien no leo muchos libros, tengo mis favoritos porque cuando era pequeño sí que intentaba
+			leer cosas. Algunos de mis favoritos serían:
 		</p>
 		<ul class="book-list">
 			<li>"<i>El código Da Vinci</i>" &ndash Dan Brown</li>
@@ -57,6 +61,7 @@
 			<li>"<i>Cien años de soledad</i>" &ndash Gabriel García Márquez</li>
 		</ul>
 		<br />
+		<h2><b>Música 🎶</b></h2>
 		<p>
 			Creo que una de las cosas que permiten conocer a alguien es la música que uno escucha, estas
 			son algunas listas de spotify que más escucho:
@@ -96,7 +101,7 @@
 	<Card title={'Anime 🍡 y derivados 🎏'} side="left">
 		<p>
 			Así es, soy otaku. No suelo hacer muchas cosas que encajen en el arquetipo como ir a
-			convenciones (fuia a una) o hacer cosplay (creo que se cuentan con 1 mano las veces que lo
+			convenciones (fui a una) o hacer cosplay (creo que se cuentan con 1 mano las veces que lo
 			hice). Tampoco compro mucha mercancía. Sin embargo, ver animes y escuchar música derivada de
 			estos es lo que usa gran parte de mi tiempo de ocio. Habré visto cerca de 800 animes, de los
 			cuales me vi en la necesidad de continuar la historia leyendo unos 50 mangas (que en verdad no
@@ -149,13 +154,13 @@
 			directamente a ingeniería. Algo bueno de esto: choqué con muros pequeños. Si bien igual
 			reprobé algunos ramos al principio, vi a mucha gente reprobar varios cursos de primer año de
 			la carrera de ingeniería porque no estaban listos para la universidad &ndash cosa que me pudo
-			haber pasado perfectamente de manera más la cuenta $ndash, estar en College me permitió
+			haber pasado perfectamente de manera más notoria &ndash, estar en College me permitió
 			asimilar lo que era la educación superior de manera menos abrupta.
 			<br /><br />
 			Con el tiempo fui reprobando ramos de todas formas, pero en esos casos lo consideraba como un mal
 			necesario para llegar a entender lo que quería estudiar. Hasta que terminé encontrando las cosas
-			por las que, para mi, sí valía la pena pasar noches sin dormir: Ingeniería matemática y ciencia
-			de datos.
+			por las que, para mi, sí valía la pena pasar noches sin dormir: Ingeniería Matemática y Ciencia
+			de Datos.
 		</p>
 	</Card>
 
@@ -164,6 +169,8 @@
 			Estos son solo algunos pedazos de mi, no iba a poner todo, no es una autobiografía. Pero al
 			menos sabes que también soy humano, que también tengo cosas que me preocupan y me molestan.
 			Espero ser mejor persona a medida que envejezco, o al menos lo intento.
+			<br><br>
+			Gracias por haber llegado a este punto, ahora definitivamente sabes más de mi 😁.
 		</p>
 	</Card>
 
@@ -182,6 +189,7 @@
 	}
 
 	.book-list li {
+		margin-top: 5px;
 		padding-left: 1em;
 		margin-left: 2em;
 		list-style-type: '📖';
@@ -189,6 +197,7 @@
 	}
 
 	.music-list li {
+		margin-top: 10px;
 		padding-left: 1em;
 		margin-left: 2em;
 		list-style-type: '🎵';
@@ -225,7 +234,7 @@
 
 	a {
 		animation-name: bw-change;
-		animation-duration: 1s;
+		animation-duration: 3s;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 	}
@@ -238,7 +247,7 @@
 		0% {
 			color: rgb(255, 255, 255);
 		}
-		50% {
+		60% {
 			color: rgb(0, 0, 0);
 		}
 	}

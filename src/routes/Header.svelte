@@ -128,7 +128,7 @@
 		color: var(--color-theme-1-aux);
 	}
 
-	@media (max-width: 480px) {
+	@media (max-width: 720px) {
 		header {
 			position: fixed;
 			z-index: 10;

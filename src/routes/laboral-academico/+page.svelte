@@ -42,7 +42,8 @@
 			muchos nombres, pero básicamente me enfoco en solucionar problemas usando herramientas
 			matemáticas, estadísticas y computacionales.
 			<br /><br />
-			Debido a esta travesía obtuve 2 licenciaturas. Actualmente (2023) estoy cursando el
+			Debido a esta travesía obtuve 2 licenciaturas y espero la entrega del título. Actualmente (2023)
+			estoy cursando el
 			<span class="highlight">Magíster en Ciencias de la Computación</span>
 			<span class="highlight">Área Aprendizaje de Máquinas</span>.
 		</p>
@@ -54,16 +55,16 @@
 				>2 proyectos, junto a Martín Benimeli, para
 				<a href="https://www.corfo.cl/" target="_blank" rel="noreferrer">CORFO</a></span
 			>
-			&ndash la Corporación de Fomento en Chile &ndash a la cual postulan miles de proyectos e ideas
+			&ndash la Corporación de Fomento en Chile &ndash a la cuál postulan miles de proyectos e ideas
 			al año, las que buscan obtener fondos concursables para poder llevarse a cabo.
 			<br /><br />
 			En el primero de estos trabajos (2020) trabajé como
 			<span class="highlight"><i>Data Scientist Intern</i></span>
-			y creé una <span class="highlight">métrica de similaridad </span>entre las postulaciones,
+			y creé una <span class="highlight">métrica de similaridad</span> entre las postulaciones,
 			tomando en cuenta los atributos que se pedían en todos los concursos de manera transversal.
 			Esta métrica tenía por propósito detectar posibles casos de
 			<span class="highlight">ideas o proyectos duplicados</span>. También se tenían que tener en
-			considerados proyectos que fueron adjudicados (que ganaron los fondos) en años anteriores.
+			consideración proyectos que fueron adjudicados (que ganaron los fondos) en años anteriores.
 			Hubo un fuerte trabajo de
 			<span class="highlight">procesamiento de lenguaje natural (NLP)</span> puesto que eran los
 			campos de texto libre los que contaban con la mayor información sobre el proyecto.
@@ -71,10 +72,11 @@
 			En el segundo de estos trabajos (2021) trabajé como
 			<span class="highlight"><i>Machine Learning Intern</i></span>, teniendo que
 			<span class="highlight">predecir información faltante de cada postulación</span>
-			usando <span class="highlight">técnicas de machine learning</span>. La mayoría de los datos a
-			predecir eran datos categóricos que no eran obligatorios de responder al momento de postular.
-			En este caso también fue necesario usar <span class="highlight">técnicas de NLP</span> para poder
-			obtener información del proyecto y poder inferir los atributos pedidos.
+			usando <span class="highlight">técnicas de predicción automática</span>. La mayoría de los
+			datos a predecir eran datos categóricos que no eran obligatorios de responder al momento de
+			postular. En este caso también fue necesario usar
+			<span class="highlight">técnicas de NLP</span> para poder obtener información del proyecto y poder
+			inferir los atributos pedidos.
 		</p>
 	</Card>
 
@@ -90,9 +92,11 @@
 					>Instituto Milenio Fundamento de los Datos (IMFD)</a
 				></span
 			>. Esta API debía permitir a los usuarios definir, entrenar, usar, ajustar y eliminar modelos
-			de machine learning. Por ejemplo, para poder predecir las etiquetas de una sentencia judicial.
-			En este trabajo estuve en la parte encargada de conectar los distintos modelos &ndash que otro
-			grupo había creado y pre-entrenado &ndash con los <i>endpoints</i> correspondientes.
+			de <i>machine learning</i>. Por ejemplo, para poder predecir las etiquetas de una sentencia
+			judicial. En este trabajo estuve en la parte encargada de
+			<span class="highlight">conectar los distintos modelos</span> &ndash que otro grupo había
+			creado y pre-entrenado &ndash
+			<span class="highlight">con los <i>endpoints</i> correspondientes</span>.
 		</p>
 	</Card>
 
@@ -127,8 +131,7 @@
 			<span class="highlight">pensamiento analítico</span>
 			y constantemente <span class="highlight">busco problemas que resolver</span> o
 			<span class="highlight">piezas que no encajan</span>
-			en una situación. Soy bueno <span class="highlight">trabajando en equipo</span>, aunque esto
-			puede variar dependiendo del equipo. Finalmente, soy
+			en una situación. Soy bueno <span class="highlight">trabajando en equipo</span>. Finalmente, soy
 			<span class="highlight">rápido para aprender cosas</span>.
 		</p>
 	</Card>
@@ -150,17 +153,17 @@
 			<li>Python: Numpy, Pandas, Matplotlib, Seaborn</li>
 			<li>R/RStudio</li>
 			<li>SQL</li>
-			<li>Excel</li>
+			<li>MS Excel</li>
 		</ul>
 	</Card>
 
-	<Card title={'Herramientas > Machine Learning 🤖'} side="right" theme="dark">
+	<Card title={'Herramientas 🛠️ > Machine Learning 🤖'} side="right" theme="dark">
 		<ul class="regular-list">
 			<li>Python: SkLearn, Keras, TensorFlow, PyTorch</li>
 		</ul>
 	</Card>
 
-	<Card title={'Herramientas > Desarrollo 🧑‍💻'} side="left" theme="dark">
+	<Card title={'Herramientas 🛠️ > Desarrollo 🧑‍💻'} side="left" theme="dark">
 		<ul class="regular-list">
 			<li>Python: Flask</li>
 			<li>HTML/CSS</li>
@@ -209,7 +212,7 @@
 
 	a {
 		animation-name: bw-change;
-		animation-duration: 1s;
+		animation-duration: 3s;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 	}
@@ -222,7 +225,7 @@
 		0% {
 			color: rgb(255, 255, 255);
 		}
-		50% {
+		60% {
 			color: rgb(0, 0, 0);
 		}
 	}
