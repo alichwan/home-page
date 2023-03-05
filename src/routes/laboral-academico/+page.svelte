@@ -10,7 +10,7 @@
 <div class="wraper">
 	<h1>Quién soy trabajando</h1>
 
-	<Card title={'Links 🔗'} side="left" theme="dark">
+	<Card title={'Links 🔗'} side="super-left" theme="dark">
 		<ul class="redes">
 			<li>
 				<a target="_blank" rel="noreferrer" href="https://github.com/alichwan">
@@ -86,7 +86,9 @@
 			<span class="highlight">API para la Corte Suprema de Chile</span>
 			en un trabajo conjunto con el
 			<span class="highlight"
-				><a href="https://imfd.cl/">Instituto Milenio Fundamento de los Datos (IMFD)</a></span
+				><a target="_blank" rel="noreferrer" href="https://imfd.cl/"
+					>Instituto Milenio Fundamento de los Datos (IMFD)</a
+				></span
 			>. Esta API debía permitir a los usuarios definir, entrenar, usar, reajustar y eliminar
 			modelos de machine learning. Por ejemplo, para poder predecir las etiquetas de una sentencia
 			judicial. En este trabajo estuve en la parte encargada de conectar los distintos modelos
@@ -101,11 +103,17 @@
 			representación intermedia: <span class="highlight">Lógica Temporal Lineal (LTL)</span>.
 			<br /><br />
 			Esta investigación la estoy realizando bajo la supervisión de
-			<a href="https://www.ing.uc.cl/academicos-e-investigadores/jorge-andres-baier-aranda/"
+			<a
+				target="_blank"
+				rel="noreferrer"
+				href="https://www.ing.uc.cl/academicos-e-investigadores/jorge-andres-baier-aranda/"
 				>Jorge Baier</a
 			>
 			y
-			<a href="https://www.ing.uc.cl/academicos-e-investigadores/rodrigo-andres-toro-icarte/"
+			<a
+				target="_blank"
+				rel="noreferrer"
+				href="https://www.ing.uc.cl/academicos-e-investigadores/rodrigo-andres-toro-icarte/"
 				>Rodrigo Toro</a
 			>, en conjunto con <span class="highlight">Cristian Hinostroza</span>, quien se encarga de
 			tomar instrucciones y hacer que
@@ -125,15 +133,24 @@
 		</p>
 	</Card>
 
-	<!-- <Card title={'✨Extras✨'} side="right" theme="dark">
-		<p>a</p>
-	</Card> -->
+	<Card title={'✨Extras✨'} side="left" theme="dark">
+		<p>
+			Dentro de los años que estuve en la universidad he asisitido a numerosas charlas en los grupos
+			en los que me encuentro:
+			<a target="_blank" rel="noreferrer" href="https://cenia.cl/">CENIA</a>,
+			<a target="_blank" rel="noreferrer" href="https://ialab.ing.puc.cl/">IALab</a> e
+			<a target="_blank" rel="noreferrer" href="https://imfd.cl/">IMFD</a>. Grupos en donde he
+			conocido gente maravillosa que me ha orientado cuando tenia dudas, no solo de inteligencia
+			artificial.
+			<br /><br />
+			Estos grupos tienen diversos proyectos y son los centros de Inteligencia Artifial más importantes
+			del país, siendo el CENIA el primer Centro Nacional de Inteligencia Artifial del país.
+		</p>
+	</Card>
 
 	<Card title={'Herramientas 🛠️ > Datos 📊'} side="left" theme="dark">
 		<ul class="regular-list">
-			<li>
-				Python: Numpy, Pandas, Matplotlib, Seaborn
-			</li>
+			<li>Python: Numpy, Pandas, Matplotlib, Seaborn</li>
 			<li>R/RStudio</li>
 			<li>SQL</li>
 			<li>Excel</li>
@@ -142,17 +159,13 @@
 
 	<Card title={'Herramientas > Machine Learning 🤖'} side="right" theme="dark">
 		<ul class="regular-list">
-			<li>
-				Python: SkLearn, Keras, TensorFlow, PyTorch
-			</li>
+			<li>Python: SkLearn, Keras, TensorFlow, PyTorch</li>
 		</ul>
 	</Card>
 
 	<Card title={'Herramientas > Desarrollo 🧑‍💻'} side="left" theme="dark">
 		<ul class="regular-list">
-			<li>
-				Python: Flask
-			</li>
+			<li>Python: Flask</li>
 			<li>HTML/CSS</li>
 			<li>JavaScript</li>
 			<li>Svelte/SvelteKit</li>
@@ -165,10 +178,10 @@
 		font-family: 'rockwell', monospace;
 	}
 
-	.regular-list li{
+	.regular-list li {
 		margin-top: 10px;
 		padding-left: 1em;
-		list-style-type: "⚙️";
+		list-style-type: '⚙️';
 		color: var(--work-color);
 	}
 
@@ -199,7 +212,7 @@
 
 	a {
 		animation-name: bw-change;
-		animation-duration: 3s;
+		animation-duration: 1s;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 	}

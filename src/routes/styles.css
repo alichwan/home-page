@@ -44,7 +44,7 @@ p {
 }
 
 a {
-	color: var(--color-theme-1);
+	color: var(--color-theme-1-aux);
 	text-decoration: none;
 }
 

@@ -10,7 +10,7 @@
 <div class="wrapper">
 	<h1>Quién soy como humano</h1>
 
-	<Card title={'Links 🔗'} side="left">
+	<Card title={'Links 🔗'} side="super-left">
 		<ul class="redes">
 			<li>
 				<a target="_blank" rel="noreferrer" href="https://www.instagram.com/alichwan_/"
@@ -22,6 +22,14 @@
 					><i class="fa-brands fa-telegram fa-3x" /></a
 				>
 			</li>
+			<li>
+				<a
+					target="_blank"
+					rel="noreferrer"
+					href="https://open.spotify.com/user/1ph5m9wtztdax9f83imb9onlp?si=640ccf42695549b9"
+					><i class="fa-brands fa-spotify fa-3x" /></a
+				>
+			</li>
 		</ul>
 	</Card>
 
@@ -29,29 +37,71 @@
 		<p>
 			Soy Alex Pavel Medina Jorquera, Pavel para los amigos. Nacido y crecido en Santiago de Chile.
 			Mayor de 3 hermanos. Me gustan el invierno y el otoño. Mis animales favoritos son los gatos y
-			los zorros. Paso la mayor parte del día en el computador, en el celular o soñando despierto.
+			los zorros. Paso gran parte del día en el computador, en el celular o soñando despierto.
 		</p>
 	</Card>
 
-	<Card title={'Series 🎬, música 🎶 y libros 📚'} side="right">
+	<Card title={'Series 🎬, libros 📚 y música 🎶'} side="right">
 		<p>
-			Si bien tengo pareja, la distancia hace que la mayor parte del día la pase con mi familia,
-			viendo memes o viendo series. ¿Series?, más bien animé [link a seccion de anime]. Si bien no
-			leo mucho, tengo mis favoritos porque cuando era pequeño si que intentaba leer cosas ... .
-			Creo que una de las cosas que permite conocer a alguien es la música que uno escucha,
-			aqui[link] están algunas listas de spotify que más escucho.
+			Si bien tengo pareja, la distancia hace que pase el tiempo con mi familia, viendo memes o
+			viendo series. ¿Series?, más bien <a href="#anime-section">animé</a>.
+			<br /><br />
+			Si bien no leo muchos libros, tengo mis favoritos porque cuando era pequeño si que intentaba leer
+			cosas. Algúnos de mis favoritos serían:
 		</p>
+		<ul class="book-list">
+			<li>"<i>El código Da Vinci</i>" &ndash Dan Brown</li>
+			<li>"<i>Joyland</i>" &ndash Stephen King</li>
+			<li>"<i>La llamada de Cthulhu</i>" &ndash H.P. Lovecraft</li>
+			<li>"<i>El principito</i>" &ndash Antoine de Saint-Exupéry</li>
+			<li>"<i>Cien años de soledad</i>" &ndash Gabriel García Márquez</li>
+		</ul>
+		<br />
+		<p>
+			Creo que una de las cosas que permiten conocer a alguien es la música que uno escucha, estas
+			son algunas listas de spotify que más escucho:
+		</p>
+		<ul class="music-list">
+			<li>
+				<a
+					href="https://open.spotify.com/playlist/3yZt5gYLmj6w5F7N03qkaW?si=1db06a4bc88045ae"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Música general y gustos de mi juventud
+				</a>
+			</li>
+			<li>
+				<a
+					href="https://open.spotify.com/playlist/7t1daRoM6jDw5jPrmiCFrJ?si=c8d04fe605464a5d"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Música derivada de memes
+				</a>
+			</li>
+			<li>
+				<a
+					href="https://open.spotify.com/playlist/6xj0cXZMzwLyRdovDMrwYC?si=89d87717e3494393"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Música de animés, openenings, endings y soundtracks
+				</a>
+			</li>
+		</ul>
 	</Card>
 
+	<div id="anime-section" />
 	<Card title={'Anime 🍡 y derivados 🎏'} side="left">
 		<p>
 			Así es, soy otaku. No suelo hacer muchas cosas que encajen en el arquetipo como ir a
 			convenciones (fuia a una) o hacer cosplay (creo que se cuentan con 1 mano las veces que lo
 			hice). Tampoco compro mucha mercancia. Sin embargo, ver animes y escuchar musica derivada de
 			estos es lo que usa gran parte de mi tiempo de ocio. Habré visto cerca de 800 animes, de los
-			cuales me vi en la necesidad de leer unos 50 mangas (que en verdad no son tantos). Si pasaste
-			por las listas de spotify, habrás notado que una de ellas tiene 24 horas de pura música de ese
-			estilo. Y esque me encanta.
+			cuales me vi en la necesidad de continuar la historia leyendo unos 50 mangas (que en verdad no
+			son tantos). Si pasaste por las listas de spotify, habrás notado que una de ellas tiene 24
+			horas de pura música de ese estilo ... y es que me encanta ese mundo.
 		</p>
 	</Card>
 
@@ -72,10 +122,10 @@
 	<Card title={'Pero...no todo es tan lindo 😞'} side="left" theme="dark">
 		<p>
 			Si bien uno intenta mostrar la cara linda para no espantar a la gente, si estás en esta página
-			es porque al menos sentiste la curiosidad de saber quién soy. Y en reconocimiento de haber
-			llegado tan abajo, no te puedo no mostrar algúnas cosas menos superficiales que me han pasado,
-			que pienso, o que siento. Quizá mucho de lo que aquí hay es nada en comparación a otras
-			realidades, pero "cada uno tiene sus propios demonios".
+			es porque al menos sentiste la curiosidad de saber quién soy. Y, en reconocimiento de haber
+			llegado hasta tan abajo, no te puedo no mostrar algúnas cosas menos superficiales que me han
+			pasado, que pienso, o que siento. Quizá mucho de lo que aquí hay es nada en comparación a
+			otras realidades, pero "cada uno tiene sus propios demonios".
 		</p>
 	</Card>
 
@@ -112,13 +162,13 @@
 		</p>
 	</Card>
 
-	<Card title={'Filosofía 🧐'} side="left" theme="dark">
+	<!-- <Card title={'Filosofía 🧐'} side="left" theme="dark">
 		<ul>
 			<li><h4>Nunca te rindas cuando encuentras lo que quieres</h4></li>
 			<li><h4>Cada uno tiene sus demonios, se amable</h4></li>
 			<li><h4>Otros</h4></li>
 		</ul>
-	</Card>
+	</Card> -->
 </div>
 
 <style>
@@ -126,9 +176,28 @@
 		font-family: 'rockwell', monospace;
 	}
 
+	.book-list li {
+		padding-left: 1em;
+		margin-left: 2em;
+		list-style-type: '📖';
+		color: rgb(77, 76, 76);
+	}
+
+	.music-list li {
+		padding-left: 1em;
+		margin-left: 2em;
+		list-style-type: '🎵';
+	}
+
+	.music-list li a {
+		color: rgb(77, 76, 76);
+		animation: none;
+	}
+
 	.regular-list li {
 		margin-top: 10px;
 		padding-left: 1em;
+		margin-left: 2em;
 		list-style-type: '⭐️';
 	}
 
@@ -151,9 +220,13 @@
 
 	a {
 		animation-name: bw-change;
-		animation-duration: 3s;
+		animation-duration: 1s;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
+	}
+
+	a:hover {
+		text-decoration: none;
 	}
 
 	@keyframes bw-change {

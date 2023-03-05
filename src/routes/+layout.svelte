@@ -5,12 +5,12 @@
 </script>
 
 <div class="app {specialClass}">
-	<Header bind:specialClass/>
-		
+	<Header bind:specialClass />
+
 	<main>
 		<slot />
 	</main>
-	
+
 	<footer>
 		<p>Made with ❤️ by <a href="https://github.com/alichwan">Alichwan</a></p>
 	</footer>
@@ -22,28 +22,53 @@
 		flex-direction: column;
 		min-height: 100vh;
 	}
+	.app.no-special footer {
+		color: black;
+	}
+
 	.app.no-special {
 		animation-name: background-change;
-		animation-duration: 5s ;
+		animation-duration: 5s;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 	}
 
 	@keyframes background-change {
-	0%   {background: rgb(255, 191, 191);}
-	50%  {background: rgb(193, 230, 254);}
-	100% {background: rgb(198, 255, 230);}
+		0% {
+			background: rgb(255, 191, 191);
+		}
+		50% {
+			background: rgb(193, 230, 254);
+		}
+		100% {
+			background: rgb(198, 255, 230);
+		}
 	}
 
 	.app.work-theme {
-		background: rgb(0,0,0);
-		background: linear-gradient(171deg, rgba(0,0,0,0.89) 5%, rgba(56,56,56,0.86) 28%, rgba(0,0,0,0.91) 48%, rgba(82,82,82,0.87) 73%, rgba(0,0,0,0.86) 94%);
+		background: rgb(0, 0, 0);
+		background: linear-gradient(
+			171deg,
+			rgba(0, 0, 0, 0.89) 5%,
+			rgba(56, 56, 56, 0.86) 28%,
+			rgba(0, 0, 0, 0.91) 48%,
+			rgba(82, 82, 82, 0.87) 73%,
+			rgba(0, 0, 0, 0.86) 94%
+		);
 		color: var(--work-color);
 	}
 
 	.app.life-theme {
-		background: rgb(255,244,0);
-		background: linear-gradient(159deg, rgba(255,244,0,0.92) 7%, rgba(5,255,0,0.60) 26%, rgba(255,0,215,0.83) 38%, rgba(136,0,255,0.87) 57%, rgba(85,0,255,1) 81%, rgba(0,17,122,0.87) 97%);
+		background: rgb(255, 244, 0);
+		background: linear-gradient(
+			159deg,
+			rgba(255, 244, 0, 0.92) 7%,
+			rgba(5, 255, 0, 0.6) 26%,
+			rgba(255, 0, 215, 0.83) 38%,
+			rgba(136, 0, 255, 0.87) 57%,
+			rgba(85, 0, 255, 1) 81%,
+			rgba(0, 17, 122, 0.87) 97%
+		);
 		color: black;
 	}
 
@@ -68,20 +93,28 @@
 	}
 
 	footer a {
+		text-decoration: none;
 		font-weight: bold;
 		color: white;
 		animation-name: color-change;
-		animation-duration: 2s ;
+		animation-duration: 2s;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
-
 	}
 
 	@keyframes color-change {
-	0%   {color: rgb(250, 123, 123);}
-	25%  {color: rgb(255, 255, 154);}
-	50%  {color: rgb(38, 168, 255);}
-	100% {color: rgb(71, 255, 175);}
+		0% {
+			color: rgb(250, 123, 123);
+		}
+		25% {
+			color: rgb(255, 255, 154);
+		}
+		50% {
+			color: rgb(38, 168, 255);
+		}
+		100% {
+			color: rgb(71, 255, 175);
+		}
 	}
 
 	@media (min-width: 480px) {

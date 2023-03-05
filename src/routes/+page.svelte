@@ -18,12 +18,8 @@
 
 	<h2>Elige qué Pavel quieres conocer</h2>
 	<div class="selection">
-		<a class="sel-block work" target="_self" href="/laboral-academico">
-			WORK
-		</a>
-		<a class="sel-block life" target="_self" href="/persona">
-			LIFE
-		</a>
+		<a class="sel-block work" target="_self" href="/laboral-academico"> WORK </a>
+		<a class="sel-block life" target="_self" href="/persona"> LIFE </a>
 	</div>
 </section>
 
@@ -85,11 +81,11 @@
 		);
 		color: var(--work-color);
 	}
-	
+
 	a.sel-block.work {
 		color: var(--work-color);
 	}
-	
+
 	.sel-block.life {
 		border-top-right-radius: 25px;
 		border-bottom-right-radius: 25px;
