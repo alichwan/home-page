@@ -22,10 +22,10 @@
 					<i class="fa-brands fa-linkedin fa-3x" />
 				</a>
 			</li>
-			<li>
+			<li class="CV">
 				<a href="/CVAlexMedina.pdf" download>
 					<i class="fa-solid fa-file fa-3x" />
-					<span>CV</span>
+					<span class="CV-text">CV</span>
 				</a>
 			</li>
 		</ul>
@@ -131,7 +131,8 @@
 			<span class="highlight">pensamiento analítico</span>
 			y constantemente <span class="highlight">busco problemas que resolver</span> o
 			<span class="highlight">piezas que no encajan</span>
-			en una situación. Soy bueno <span class="highlight">trabajando en equipo</span>. Finalmente, soy
+			en una situación. Soy bueno <span class="highlight">trabajando en equipo</span>. Finalmente,
+			soy
 			<span class="highlight">rápido para aprender cosas</span>.
 		</p>
 	</Card>
@@ -211,10 +212,7 @@
 	}
 
 	a {
-		animation-name: bw-change;
-		animation-duration: 3s;
-		animation-iteration-count: infinite;
-		animation-direction: alternate;
+		color: rgb(255, 255, 255);
 	}
 
 	.redes a:hover {

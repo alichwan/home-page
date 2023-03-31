@@ -35,9 +35,10 @@
 
 	<Card title={'¿Quién soy?👤❓'} side="left">
 		<p>
-			Mi nombre es Alex Pavel Medina Jorquera &mdash Pavel para los amigos. Nací y crecí en Santiago de Chile.
-			Mayor de 3 hermanos. Me gustan el invierno y el otoño. Mis animales favoritos son los gatos y
-			los zorros. Paso gran parte del día en el computador, en el celular o soñando despierto.
+			Mi nombre es Alex Pavel Medina Jorquera &mdash Pavel para los amigos. Nací y crecí en Santiago
+			de Chile. Mayor de 3 hermanos. Me gustan el invierno y el otoño. Mis animales favoritos son
+			los gatos y los zorros. Paso gran parte del día en el computador, en el celular o soñando
+			despierto.
 		</p>
 	</Card>
 
@@ -154,8 +155,8 @@
 			directamente a ingeniería. Algo bueno de esto: choqué con muros pequeños. Si bien igual
 			reprobé algunos ramos al principio, vi a mucha gente reprobar varios cursos de primer año de
 			la carrera de ingeniería porque no estaban listos para la universidad &ndash cosa que me pudo
-			haber pasado perfectamente de manera más notoria &ndash, estar en College me permitió
-			asimilar lo que era la educación superior de manera menos abrupta.
+			haber pasado perfectamente de manera más notoria &ndash, estar en College me permitió asimilar
+			lo que era la educación superior de manera menos abrupta.
 			<br /><br />
 			Con el tiempo fui reprobando ramos de todas formas, pero en esos casos lo consideraba como un mal
 			necesario para llegar a entender lo que quería estudiar. Hasta que terminé encontrando las cosas
@@ -169,7 +170,7 @@
 			Estos son solo algunos pedazos de mi, no iba a poner todo, no es una autobiografía. Pero al
 			menos sabes que también soy humano, que también tengo cosas que me preocupan y me molestan.
 			Espero ser mejor persona a medida que envejezco, o al menos lo intento.
-			<br><br>
+			<br /><br />
 			Gracias por haber llegado a este punto, ahora definitivamente sabes más de mi 😁.
 		</p>
 	</Card>
@@ -244,10 +245,7 @@
 	}
 
 	@keyframes bw-change {
-		0% {
-			color: rgb(255, 255, 255);
-		}
-		60% {
+		50% {
 			color: rgb(0, 0, 0);
 		}
 	}
