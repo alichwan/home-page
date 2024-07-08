@@ -10,7 +10,8 @@
 	<h1>
 		<span class="welcome">
 			<picture>
-				<img src="/fox.svg" alt="Welcome" />
+				<!-- <img src="/fox.svg" alt="Welcome" /> -->
+				<img class="profpic" src="/pavelprofpic.png" alt="Welcome" />
 			</picture>
 		</span>
 		Hola, te invito a conocerme
@@ -119,11 +120,14 @@
 		padding: 0 0 calc(100% * 495 / 2048) 0;
 	}
 
-	.welcome img {
+	.welcome img.profpic {
 		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+		width: 30%;
+		height: 120%;
+		/* top: 0; */
+		/* display: block; */
+		left: 35%;
+		top: -30%;
+		align-items: center;
 	}
 </style>

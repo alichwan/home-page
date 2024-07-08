@@ -55,6 +55,8 @@
 			leer cosas. Algunos de mis favoritos serían:
 		</p>
 		<ul class="book-list">
+			<li>"<i>The House of Hades (The Heroes of Olympus)</i>" &ndash Rick Riordan</li>
+			<li>"<i>Scythe</i>" &ndash Neal Shusterman</li>
 			<li>"<i>El código Da Vinci</i>" &ndash Dan Brown</li>
 			<li>"<i>Joyland</i>" &ndash Stephen King</li>
 			<li>"<i>La llamada de Cthulhu</i>" &ndash H.P. Lovecraft</li>
@@ -116,7 +118,7 @@
 			<li>Fecha de nacimiento: 25 Feb 1997 11:23</li>
 			<li>Zodiaco occidental: Sol>Piscis, Luna>Libra, Ascendente>Aries</li>
 			<li>Zodiaco chino: Buey de agua</li>
-			<li>MBTI: ENTP</li>
+			<li><a href="https://www.16personalities.com/">MBTI</a>: ENTP</li>
 			<li>
 				<a href="https://www.wizardingworld.com/">Wizardingworld</a>: Casa>Slytherin,
 				Patronus>Ardilla

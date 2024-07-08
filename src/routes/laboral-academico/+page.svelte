@@ -80,7 +80,7 @@
 		</p>
 	</Card>
 
-	<Card title={''} side="right" theme="dark">
+	<Card title={''} side="left" theme="dark">
 		<p>
 			Además de estos trabajos, estuve envuelto como <span class="highlight">Desarrollador Jr.</span
 			>
@@ -100,11 +100,43 @@
 		</p>
 	</Card>
 
+	<Card title={''} side="right" theme="dark">
+		<p>
+			Desde abril del 2023 me encuentro trabajando como <span class="highlight">[On Call] Service Reliability Engineer (SRE)</span> en 
+			<a 
+				target="_blank"
+				rel="noreferrer"
+				href="https://home.zippedi.com/">
+				<span class="highlight">Zippedi</span>
+			</a>
+			. La empresa se enfoca en darle información relevante a cadenas de retail 
+			como Jumbo, Sodimac, The Home Depot, Cainz, Kmart, etc. Información como: 
+			los flejes (etiquetas de precio) que tienen un precio incorrecto, flejes 
+			que están mal puestos, stockout de productos (se llevaron todos los que 
+			dejaron en la posición que debieran estar), etc. Esta información es 
+			recolectada por un <span class="highlight">robot semi-autónomo</span> que navega por los pasillos de los locales, 
+			escaneandolos y comparando esto con la  data que maneja el local internamente.
+			<br /><br />
+			Mi labor consiste en evitar que los usuarios experimenten fallas, habilitar 
+			canales de alertas internos que adviertan que algún robot está teniendo 
+			problemas, agregar <i>features</i> en APIs ya creadas para poder preparar 
+			el terreno para implementar las funcionalidades de monitoreo. Sin embargo, 
+			me he visto haciendo varias tareas de análisis de datos, administrador 
+			casual de la plataforma de <i>tickets</i>, entre otras. Pero estas tareas han 
+			aparecido esporádicamente.
+		</p>
+	</Card>
+
 	<Card title={'Investigación 👨🏼‍🔬🔎'} side="left" theme="dark">
 		<p>
 			Actualmente estoy investigando cómo pasar desde
 			<span class="highlight"><i>traces</i> a lenguaje natural</span>. Para esto, se está usando una
-			representación intermedia: <span class="highlight">Lógica Temporal Lineal (LTL)</span>.
+			representación intermedia: 
+			<span class="highlight">
+				<a href="https://es.wikipedia.org/wiki/Aut%C3%B3mata_finito_determinista">
+					autómatas
+				</a>
+			</span>.
 			<br /><br />
 			Esta investigación la estoy realizando bajo la supervisión de
 			<a
@@ -119,9 +151,13 @@
 				rel="noreferrer"
 				href="https://www.ing.uc.cl/academicos-e-investigadores/rodrigo-andres-toro-icarte/"
 				>Rodrigo Toro</a
-			>, en conjunto con <span class="highlight">Cristian Hinostroza</span>, quien se encarga de
+			>, en conjunto con 
+			<a href="https://www.ing.uc.cl/academicos-e-investigadores/cristian-andres-hinostroza-espinoza/">
+			Cristian Hinostroza</a>
+			, quien tiene una investigación transversal a la mía. Él se encarga de
 			tomar instrucciones y hacer que
 			<span class="highlight">un agente, inserto en un ambiente, las ejecute</span>.
+			(Update: terminó el master y ahora es profe del DCC UC)
 		</p>
 	</Card>
 
@@ -149,29 +185,32 @@
 		</p>
 	</Card>
 
-	<Card title={'Herramientas 🛠️ > Datos 📊'} side="left" theme="dark">
+	<Card title={'Herramientas 🛠️ > Desarrollo 🧑‍💻'} side="left" theme="dark">
+		<ul class="regular-list">
+			<li>Python: Flask</li>
+			<li>Google Cloud Platform</li>
+			<li>HTML/CSS/JS</li>
+			<li>Svelte/SvelteKit</li>
+		</ul>
+	</Card>
+
+	<Card title={'Herramientas 🛠️ > Datos 📊'} side="right" theme="dark">
 		<ul class="regular-list">
 			<li>Python: Numpy, Pandas, Matplotlib, Seaborn</li>
+			<li>PostgreSQL</li>
+			<li>DBT</li>
+			<li>Airflow</li>
 			<li>R/RStudio</li>
-			<li>SQL</li>
 			<li>MS Excel</li>
 		</ul>
 	</Card>
 
-	<Card title={'Herramientas 🛠️ > Machine Learning 🤖'} side="right" theme="dark">
+	<Card title={'Herramientas 🛠️ > Machine Learning 🤖'} side="left" theme="dark">
 		<ul class="regular-list">
-			<li>Python: SkLearn, Keras, TensorFlow, PyTorch</li>
+			<li>Python: SkLearn, Keras, TensorFlow</li>
 		</ul>
 	</Card>
 
-	<Card title={'Herramientas 🛠️ > Desarrollo 🧑‍💻'} side="left" theme="dark">
-		<ul class="regular-list">
-			<li>Python: Flask</li>
-			<li>HTML/CSS</li>
-			<li>JavaScript</li>
-			<li>Svelte/SvelteKit</li>
-		</ul>
-	</Card>
 </div>
 
 <style>
