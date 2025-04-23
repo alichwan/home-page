@@ -18,7 +18,7 @@
 				</a>
 			</li>
 			<li>
-				<a target="_blank" rel="noreferrer" href="https://linkedin.com/in/alichwan">
+				<a target="_blank" rel="noreferrer" href="https://linkedin.com/in/pavelmedinajorquera">
 					<i class="fa-brands fa-linkedin fa-3x" />
 				</a>
 			</li>
@@ -40,12 +40,10 @@
 			<span class="highlight">major en Data Science</span> y
 			<span class="highlight">minor en Cuantificación de la Incertidumbre</span>. Efectivamente, son
 			muchos nombres, pero básicamente me enfoco en solucionar problemas usando herramientas
-			matemáticas, estadísticas y computacionales.
-			<br /><br />
-			Debido a esta travesía obtuve 2 licenciaturas y espero la entrega del título. Actualmente (2023)
-			estoy cursando el
+			matemáticas, estadísticas y computacionales. Debido a esta travesía obtuve 2 licenciaturas y un título. En enero de 2025 
+			terminé el 
 			<span class="highlight">Magíster en Ciencias de la Computación</span>
-			<span class="highlight">Área Aprendizaje de Máquinas</span>.
+			<span class="highlight">Área Aprendizaje de Máquinas</span> y conseguí mi libertad.
 		</p>
 	</Card>
 
@@ -84,7 +82,7 @@
 		<p>
 			Además de estos trabajos, estuve envuelto como <span class="highlight">Desarrollador Jr.</span
 			>
-			en un proyecto con un grupo de 8 personas para empezar a construir una
+			en un proyecto para empezar a construir una
 			<span class="highlight">API para la Corte Suprema de Chile</span>
 			en un trabajo conjunto con el
 			<span class="highlight"
@@ -110,11 +108,12 @@
 				<span class="highlight">Zippedi</span>
 			</a>
 			. La empresa se enfoca en darle información relevante a cadenas de retail 
-			como Jumbo, Sodimac, The Home Depot, Cainz, Kmart, etc. Información como: 
+			como Jumbo, Sodimac L.A., Unimarc, Kmart, etc. Información como: 
 			los flejes (etiquetas de precio) que tienen un precio incorrecto, flejes 
 			que están mal puestos, stockout de productos (se llevaron todos los que 
-			dejaron en la posición que debieran estar), etc. Esta información es 
-			recolectada por un <span class="highlight">robot semi-autónomo</span> que navega por los pasillos de los locales, 
+			estaban en los pasillos), etc. Esta información es 
+			recolectada por un <span class="highlight">robot semi-autónomo</span> que 
+			navega por los pasillos de los locales, 
 			escaneandolos y comparando esto con la  data que maneja el local internamente.
 			<br /><br />
 			Mi labor consiste en evitar que los usuarios experimenten fallas, habilitar 
@@ -129,16 +128,11 @@
 
 	<Card title={'Investigación 👨🏼‍🔬🔎'} side="left" theme="dark">
 		<p>
-			Actualmente estoy investigando cómo pasar desde
-			<span class="highlight"><i>traces</i> a lenguaje natural</span>. Para esto, se está usando una
-			representación intermedia: 
-			<span class="highlight">
-				<a href="https://es.wikipedia.org/wiki/Aut%C3%B3mata_finito_determinista">
-					autómatas
-				</a>
-			</span>.
+			Investigué, en mi magister, cómo pasar desde ejemplos etiquetados de
+			<span class="highlight"><i>traces</i> a un autómata</span>. Usando APTAs
+			como representación intermedia.
 			<br /><br />
-			Esta investigación la estoy realizando bajo la supervisión de
+			Esta investigación la realicé bajo la supervisión de
 			<a
 				target="_blank"
 				rel="noreferrer"
@@ -154,9 +148,7 @@
 			>, en conjunto con 
 			<a href="https://www.ing.uc.cl/academicos-e-investigadores/cristian-andres-hinostroza-espinoza/">
 			Cristian Hinostroza</a>
-			, quien tiene una investigación transversal a la mía. Él se encarga de
-			tomar instrucciones y hacer que
-			<span class="highlight">un agente, inserto en un ambiente, las ejecute</span>.
+			, quien tuvo una investigación transversal a la mía.
 			(Update: terminó el master y ahora es profe del DCC UC)
 		</p>
 	</Card>
@@ -190,7 +182,7 @@
 			<li>Python: Flask</li>
 			<li>Google Cloud Platform</li>
 			<li>HTML/CSS/JS</li>
-			<li>Svelte/SvelteKit</li>
+			<li>Docker</li>
 		</ul>
 	</Card>
 

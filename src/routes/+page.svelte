@@ -19,8 +19,8 @@
 
 	<h2>Elige qué Pavel quieres conocer</h2>
 	<div class="selection">
-		<a class="sel-block work" target="_self" href="/laboral-academico"> WORK </a>
-		<a class="sel-block life" target="_self" href="/persona"> LIFE </a>
+		<a class="sel-block work" target="_self" href="/laboral-academico"> Laboral </a>
+		<a class="sel-block life" target="_self" href="/persona"> Real </a>
 	</div>
 </section>
 

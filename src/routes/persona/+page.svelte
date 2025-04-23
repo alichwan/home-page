@@ -45,7 +45,7 @@
 	<Card title={'Series 🎬, libros 📚 y música 🎶'} side="right">
 		<h2><b>Series 🎬</b></h2>
 		<p>
-			Si bien tengo pareja, la distancia hace que pase el tiempo con mi familia, viendo memes o
+			Paso el tiempo con mi familia o mi novia, viendo memes o
 			viendo series. ¿Series?, más bien <a href="#anime-section">anime</a>.
 		</p>
 		<br />
@@ -104,11 +104,11 @@
 	<Card title={'Anime 🍡 y derivados 🎏'} side="left">
 		<p>
 			Así es, soy otaku. No suelo hacer muchas cosas que encajen en el arquetipo como ir a
-			convenciones (fui a una) o hacer cosplay (creo que se cuentan con 1 mano las veces que lo
+			convenciones (fui a una) o hacer cosplay (creo que se cuentan con los dedos de una mano las veces que lo
 			hice). Tampoco compro mucha mercancía. Sin embargo, ver animes y escuchar música derivada de
-			estos es lo que usa gran parte de mi tiempo de ocio. Habré visto cerca de 800 animes, de los
+			estos es lo que usa gran parte de mi tiempo de ocio. Habré visto cerca de 1000 animes, de los
 			cuales me vi en la necesidad de continuar la historia leyendo unos 50 mangas (que en verdad no
-			son tantos). Si pasaste por las listas de spotify, habrás notado que una de ellas tiene 24
+			son tantos). Si pasaste por las listas de spotify, habrás notado que una de ellas tiene >24
 			horas de pura música de ese estilo ... y es que me encanta ese mundo.
 		</p>
 	</Card>
@@ -151,9 +151,11 @@
 
 	<Card title={''} side="left" theme="dark">
 		<p>
-			Si te fijaste en el CV o la seccion laboral, habrás notado que estuve 9 años en la
+			Si te fijaste en el CV o la seccion laboral, habrás notado que estuve 10 años en la
 			universidad. Gran parte de eso se debe a que no entendía quién era, qué quería y para qué era
-			bueno. Entré a College UC el 2015 porque no obtuve el puntaje necesario para entrar
+			bueno. 
+			<br><br>
+			Entré a College UC el 2015 porque no obtuve el puntaje necesario para entrar
 			directamente a ingeniería. Algo bueno de esto: choqué con muros pequeños. Si bien igual
 			reprobé algunos ramos al principio, vi a mucha gente reprobar varios cursos de primer año de
 			la carrera de ingeniería porque no estaban listos para la universidad &ndash cosa que me pudo
