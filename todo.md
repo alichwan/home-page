@@ -1,0 +1,10 @@
+- quitar contacto o copiar correo a clipboard 
+- Hacerlo resposive
+- Cambiar el  nombe de PavelPedia a algo más decente.
+- cambiar el menu lateral, quitar cosas innecesarias
+- Pavel (disambiguation) add link to the most similar stuff
+- Complete educationa information
+- link a la tesis
+- Agrgar CV en español con nuevo formato
+- cambiar a primera persona lenaguaje
+- 
