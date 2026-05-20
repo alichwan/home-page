@@ -62,4 +62,28 @@ const i18n = { en, es }
     e.preventDefault()
     window.print()
   })
+
+  // ---------- Contact: copy email to clipboard ----------
+  const CONTACT_EMAIL = 'all.each.one@gmail.com'
+  document.getElementById('contactLink').addEventListener('click', (e) => {
+    e.preventDefault()
+    navigator.clipboard.writeText(CONTACT_EMAIL).then(() => {
+      showToast(document.body.getAttribute('data-lang') === 'en'
+        ? `Email copied: ${CONTACT_EMAIL}`
+        : `Correo copiado: ${CONTACT_EMAIL}`)
+    })
+  })
+  document.addEventListener('langchange', () => {})
+
+  function showToast(msg) {
+    const toast = document.createElement('div')
+    toast.className = 'pp-toast'
+    toast.textContent = msg
+    document.body.appendChild(toast)
+    requestAnimationFrame(() => toast.classList.add('pp-toast--in'))
+    setTimeout(() => {
+      toast.classList.remove('pp-toast--in')
+      toast.addEventListener('transitionend', () => toast.remove(), { once: true })
+    }, 2600)
+  }
 })()
