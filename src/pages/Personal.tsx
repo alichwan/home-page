@@ -1,6 +1,6 @@
 function Personal() {
   return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100svh' }}>
       <h1>Personal</h1>
     </div>
   )

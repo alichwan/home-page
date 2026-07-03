@@ -2,7 +2,7 @@
 
 .game {
   width: 100vw;
-  height: 100vh;
+  height: 100svh;
   display: flex;
   flex-direction: column;
   background: #eef5ff;
