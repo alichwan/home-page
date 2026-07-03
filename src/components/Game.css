@@ -3,6 +3,8 @@
 .game {
   width: 100vw;
   height: 100svh;
+  padding-top: 3.25rem;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   background: #eef5ff;
