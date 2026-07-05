@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { House } from 'lucide-react'
+import LanguageToggle from './LanguageToggle'
 import './Navbar.css'
 
 function Navbar() {
@@ -11,6 +12,10 @@ function Navbar() {
       <NavLink to="/professional" className="nav-link">Professional</NavLink>
       <NavLink to="/personal"     className="nav-link">Personal</NavLink>
       <NavLink to="/projects"     className="nav-link">Projects</NavLink>
+
+      <div className="navbar-right">
+        <LanguageToggle />
+      </div>
     </nav>
   )
 }

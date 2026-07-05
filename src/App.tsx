@@ -1,13 +1,17 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { LanguageProvider } from './context/LanguageContext'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import Professional from './pages/Professional'
 import Personal from './pages/Personal'
 import Projects from './pages/Projects'
 
-function App() {
+function AppLayout() {
+  const { pathname } = useLocation()
+
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <Routes>
         <Route path="/"             element={<Home />} />
@@ -15,7 +19,18 @@ function App() {
         <Route path="/personal"     element={<Personal />} />
         <Route path="/projects"     element={<Projects />} />
       </Routes>
-    </BrowserRouter>
+      {pathname !== '/' && <Footer />}
+    </>
+  )
+}
+
+function App() {
+  return (
+    <LanguageProvider>
+      <BrowserRouter>
+        <AppLayout />
+      </BrowserRouter>
+    </LanguageProvider>
   )
 }
 

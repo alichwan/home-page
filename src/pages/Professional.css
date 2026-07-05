@@ -1,0 +1,27 @@
+.professional-page {
+  min-height: 100svh;
+  box-sizing: border-box;
+  padding: 5rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.professional-bubbles {
+  display: flex;
+  gap: 1rem;
+}
+
+.professional-content {
+  width: 100%;
+  max-width: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.professional-content > * {
+  flex: 1 1 16rem;
+}

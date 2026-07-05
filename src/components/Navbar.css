@@ -12,6 +12,11 @@
   background: rgba(238, 245, 255, 0.75);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+
+  @media (max-width: 480px) {
+    gap: 0.75rem;
+    padding: 0 1rem;
+  }
 }
 
 .nav-link {
@@ -24,6 +29,11 @@
   letter-spacing: 0.06em;
   opacity: 0.4;
   transition: opacity 0.15s;
+
+  @media (max-width: 480px) {
+    font-size: 0.7rem;
+    letter-spacing: 0.03em;
+  }
 }
 
 .nav-link:hover {
@@ -32,4 +42,10 @@
 
 .nav-link.active {
   opacity: 1;
+}
+
+.navbar-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }

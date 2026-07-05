@@ -9,7 +9,7 @@ const THRESHOLD      = 0.05
 const FADE_ZONE      = 0.9
 const BALL_SIZE      = 100
 const BALL_RADIUS    = BALL_SIZE / 2
-const DRAG_THRESHOLD = 250
+const DRAG_THRESHOLD = 200
 
 const isTouch = window.matchMedia('(pointer: coarse)').matches
 
