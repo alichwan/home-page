@@ -9,7 +9,8 @@
   gap: 2rem;
   padding: 0 2.25rem;
   height: 3.25rem;
-  background: rgba(238, 245, 255, 0.75);
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  border-bottom: 1px solid var(--border);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 
@@ -22,7 +23,7 @@
 .nav-link {
   display: flex;
   align-items: center;
-  color: #1e2030;
+  color: var(--text-h);
   text-decoration: none;
   font-size: 0.8125rem;
   font-weight: 500;
