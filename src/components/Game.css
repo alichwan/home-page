@@ -87,6 +87,9 @@
 /* ── Desktop arrow hints ──────────────────────── */
 
 .hint-zone {
+  position: absolute;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;

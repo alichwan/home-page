@@ -154,6 +154,10 @@ function Game() {
         <span className="direction right" style={{ opacity: rightOpacity }}>{t("Professional", "Profesional")}</span>
 
         <div className="stage">
+          <div className="hint-zone" style={{ bottom: `${2 * BALL_SIZE + 20}px` }}>
+            <ArrowLeft size={20} className="hint-arrow hint-left" />
+            <ArrowRight size={20} className="hint-arrow hint-right" />
+          </div>
           <div
             className="figure-wrap"
             style={{ left: `calc(${pos * 100}% - ${BALL_RADIUS * 2}px)` }}
@@ -165,10 +169,7 @@ function Game() {
         <span className="floor-greeting">{t("Hello!", "Hola!")}</span>
       </div>
 
-      <div className="zone bottom hint-zone">
-        <ArrowLeft size={20} className="hint-arrow hint-left" />
-        <ArrowRight size={20} className="hint-arrow hint-right" />
-      </div>
+      <div className="zone bottom" />
     </div>
   )
 }
