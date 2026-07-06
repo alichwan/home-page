@@ -6,8 +6,8 @@ export type Lang = 'en' | 'es'
 interface LanguageContextValue {
   lang: Lang
   toggleLanguage: () => void
-  /** Pick a string based on the current language: t('Fill here', 'Rellenar aqui') */
-  t: (en: string, es: string) => string
+  /** Pick a value based on the current language: t('Fill here', 'Rellenar aqui') — works for strings or JSX */
+  t: <T,>(en: T, es: T) => T
 }
 
 const LanguageContext = createContext<LanguageContextValue | undefined>(undefined)
@@ -18,7 +18,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const value = useMemo<LanguageContextValue>(() => ({
     lang,
     toggleLanguage: () => setLang((prev) => (prev === 'en' ? 'es' : 'en')),
-    t: (en, es) => (lang === 'en' ? en : es),
+    t: <T,>(en: T, es: T) => (lang === 'en' ? en : es),
   }), [lang])
 
   return (

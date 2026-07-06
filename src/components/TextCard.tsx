@@ -1,8 +1,9 @@
+import type { ReactNode } from 'react'
 import './TextCard.css'
 
 interface TextCardProps {
   title: string
-  text: string
+  text: ReactNode
 }
 
 function TextCard({ title, text }: TextCardProps) {

@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import './LinksCard.css'
 
 export interface LinkItem {
@@ -8,7 +9,7 @@ export interface LinkItem {
 
 interface LinksCardProps {
   title: string
-  text?: string
+  text?: ReactNode
   items: LinkItem[]
   /** Bullet used when an item doesn't specify its own emoji */
   emoji?: string
