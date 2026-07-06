@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ArrowLeft, ArrowRight, ArrowUp, ArrowDown } from 'lucide-react'
+import { useLanguage } from '../context/LanguageContext'
 import Ball from './Ball'
 import './Game.css'
 
@@ -15,6 +16,7 @@ const isTouch = window.matchMedia('(pointer: coarse)').matches
 
 function Game() {
   const navigate = useNavigate()
+  const { t } = useLanguage()
 
   // ── Desktop state ──────────────────────────────────────
   const keysRef     = useRef<Set<string>>(new Set())
@@ -129,14 +131,14 @@ function Game() {
               <Ball rotation={rotation} />
             </div>
             <span className="floor-greeting" style={{ opacity: 0.8 - downProgress * 5 }}>
-              Hello!
+              {t("Hello!", "Hola!")}
             </span>
             <ArrowDown size={22} className="touch-arrow down" />
           </div>
         </div>
 
         <div className="zone bottom touch-hint">
-          <span style={{ opacity: 0.2 + downProgress * 0.8 }}>Professional</span>
+          <span style={{ opacity: 0.2 + downProgress * 0.8 }}>{t("Professional", "Profesional")}</span>
         </div>
       </div>
     )
@@ -149,7 +151,7 @@ function Game() {
 
       <div className="zone middle">
         <span className="direction left"  style={{ opacity: leftOpacity }}>Personal</span>
-        <span className="direction right" style={{ opacity: rightOpacity }}>Professional</span>
+        <span className="direction right" style={{ opacity: rightOpacity }}>{t("Professional", "Profesional")}</span>
 
         <div className="stage">
           <div
@@ -160,7 +162,7 @@ function Game() {
           </div>
           <div className="floor" />
         </div>
-        <span className="floor-greeting">Hello!</span>
+        <span className="floor-greeting">{t("Hello!", "Hola!")}</span>
       </div>
 
       <div className="zone bottom hint-zone">

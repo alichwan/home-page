@@ -9,7 +9,6 @@ import './Professional.css'
 function Professional() {
   const { t } = useLanguage()
   const fill = t('Fill here', 'Rellenar aqui')
-  const cv = t('/assets/CV2026PavelMJ_EN.pdf', '/assets/CV2026PavelMJ_ES.pdf')
 
   return (
     <div className="professional-page">
@@ -30,7 +29,7 @@ function Professional() {
         />
         <Bubble
           icon={<File size={20} />}
-          href={cv}
+          href={t('/assets/CV2026PavelMJ_EN.pdf', '/assets/CV2026PavelMJ_ES.pdf')}
           label={t('CV (English)', 'CV (Español)')}
           text="CV"
         />
