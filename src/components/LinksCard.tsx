@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 import './LinksCard.css'
 
 export interface LinkItem {
-  label: string
+  label: ReactNode
   href?: string
   emoji?: string
 }
