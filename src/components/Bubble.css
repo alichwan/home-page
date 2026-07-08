@@ -1,0 +1,32 @@
+.bubble {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  color: var(--text-h);
+  text-decoration: none;
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.bubble:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+.bubble-with-text {
+  flex-direction: column;
+  gap: 0.05rem;
+}
+
+.bubble-text {
+  font-size: 0.4rem;
+  font-weight: 600;
+  line-height: 1;
+
+}
