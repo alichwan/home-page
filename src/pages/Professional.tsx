@@ -37,8 +37,21 @@ function Professional() {
         <TextCard
         title={t("About me", "Sobre mí")}
         text={t(
-          <>Fill here</>,
-          <>Rellenar</>
+          <>
+            I am a professional passionate about <span className="highlight">the world of software</span>, <span className="highlight">mathematics</span>, and <span className="highlight">solving complex problems</span>. I have worked as a Service Reliability Engineer, Data Scientist, and developer, which has allowed me to approach projects from different technical perspectives and adapt to a wide range of challenges.
+            <br /><br />
+            I consider myself a <span className="highlight">critical thinker</span>, <span className="highlight">solution-oriented</span>, and strongly motivated to <span className="highlight">continuously learn and expand my horizons</span>. I enjoy working in teams and sharing ideas, although I can also take ownership of responsibilities independently when the context requires it. I especially value work quality, careful code review, and well-informed decision-making.
+            <br /><br />
+            I recognize that sometimes <span className="highlight">I find it difficult to delegate or ask for help</span> when I feel I can solve something on my own, and at other times <span className="highlight">I tend to ask many questions before tackling a problem</span> in order to fully understand the context. <span className="highlight">I often use AI-based tools</span>, such as LLMs, to optimize repetitive tasks or explore ideas, while always <span className="highlight">maintaining my own technical judgment, thorough review, and responsibility</span> for the final outcome.
+          </>
+          ,
+          <>
+            Soy un profesional apasionado por <span className="highlight">el mundo del software</span>, las <span className="highlight">matemáticas</span> y la <span className="highlight">resolución de problemas complejos</span>. He trabajado como Service Reliability Engineer, Data Scientist y desarrollador, lo que me ha permitido abordar proyectos desde distintas perspectivas técnicas y adaptarme a diferentes desafíos.
+            <br /><br />
+            Me considero una persona de <span className="highlight">pensamiento crítico</span>, <span className="highlight">orientada a soluciones</span> y con una fuerte motivación por <span className="highlight">aprender continuamente y expandir mis horizontes</span>. Disfruto trabajar en equipo y compartir ideas, aunque también puedo asumir responsabilidades de forma autónoma cuando el contexto lo requiere. Valoro especialmente la calidad del trabajo, la revisión cuidadosa del código y la toma de decisiones fundamentadas.
+            <br /><br />
+            Reconozco que a veces <span className="highlight">me cuesta delegar o pedir ayuda</span> cuando siento que puedo resolver algo por mi cuenta, y en otras ocasiones <span className="highlight">tiendo a hacer muchas preguntas antes de abordar un problema</span> para entender bien el contexto. <span className="highlight">Suelo utilizar herramientas basadas en IA</span>, como LLMs, para optimizar tareas repetitivas o explorar ideas, pero siempre <span className="highlight">manteniendo criterio técnico propio, revisión exhaustiva y responsabilidad</span> sobre el resultado final.
+          </>
         )}  
         />
         <TextCard
@@ -133,6 +146,8 @@ function Professional() {
                 <span className="tag">Matplotlib</span>
                 <span className="tag">Seaborn</span>
                 <span className="tag">Plotly Express</span>
+                <span className="tag">DBT</span>
+                <span className="tag">Airflow</span>
               </div>
             </div>
 

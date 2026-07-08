@@ -19,10 +19,10 @@ function Navbar() {
       {
         t("Personal", "Personal")
       }</NavLink>
-      <NavLink to="/projects"     className="nav-link">
+      {/* <NavLink to="/projects"     className="nav-link">
       {
         t("Projects", "Proyectos")
-      }</NavLink>
+      }</NavLink> */}
 
       <div className="navbar-right">
         <LanguageToggle />
