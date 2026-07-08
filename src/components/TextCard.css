@@ -10,7 +10,7 @@
   margin: 0 0 0.5rem;
 }
 
-.text-card p {
+.text-card-text {
   color: var(--text);
   white-space: pre-line;
 }

@@ -27,13 +27,43 @@
 }
 
 .highlight {
-  background-color: rgb(45, 45, 45);
+  background-color: color-mix(in srgb, var(--text-h) 10%, transparent);
   border-radius: 0.25rem;
-  padding: 0 0.2rem 0;
+  padding: 0 0.2rem;
 }
 
-span.tag {
-  background-color: rgb(45, 45, 45);
+.skills-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.tag-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tag-group + .tag-group {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.tag-group-title {
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag {
+  background-color: color-mix(in srgb, var(--text-h) 10%, transparent);
   border-radius: 1rem;
-  padding: 0 0.5rem 0;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
 }
