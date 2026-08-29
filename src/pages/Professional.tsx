@@ -27,7 +27,7 @@ function Professional() {
         />
         <Bubble
           icon={<File size={20} />}
-          href={t('/assets/CV2026PavelMJ_EN.pdf', '/assets/CV2026PavelMJ_ES.pdf')}
+          href={t('/assets/CV_AlexPavelMJ_EN.pdf', '/assets/CV_AlexPavelMJ_ES.pdf')}
           label={t('CV (English)', 'CV (Español)')}
           text="CV"
         />
